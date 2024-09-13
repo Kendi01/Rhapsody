@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.8), /* Adjust this RGBA value for desired opacity and color */
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("img/bg1.png");
+
+    background-size: cover;
+    background-position: center;
+    
+}
+.container{
+    height: auto;
+  justify-content: center;
+}
+.logo1 {
+   float: left;
+
+}
+.logo{
+  width: 600px;
+  opacity: 0.4;
+}
+
+.nav{
+    float: right;
+   border: none;
+    width: 350px;
+    height: 450px;
+    margin: 160px;
+    text-align: center;
+   
+}
+.link{
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    font-size: 17px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+li{
+    border: 2px solid rgb(20, 20, 20);
+    margin: 12px;
+    padding: 15px;
+    border-radius: 15px;
+    list-style: none;
+}
+li:hover{
+    background: rgb(207, 114, 59);
+}
+.fa{
+    padding: 15px;
+}
